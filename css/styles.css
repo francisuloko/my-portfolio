@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
     z-index: 2;
     padding: 0;
     margin: 0;
@@ -9,7 +10,12 @@
 }
 
 section {
-    padding: 30px 0;
+    padding: 10px 0;
+}
+
+.container {
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -19,7 +25,8 @@ h1 {
 h2 {
     color: #555;
     font-size: 35px;
-    padding: 0 20px 20px 20px;
+    padding: 10px 0;
+    /* text-align: center; */
 }
 
 .flex {
@@ -80,15 +87,11 @@ nav a {
     color: #333;
 }
 
-.projects-container {
-    padding: 0;
-    margin: 0 auto;
-}
 
 .project {
     width: 100%;
     padding: 0;
-    margin: 20px auto;
+    margin: 14px auto;
     background-color: #162b54;
     color: #fff;
 }
@@ -105,7 +108,7 @@ nav a {
 }
 
 .project-details {
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .tags {
@@ -113,7 +116,8 @@ nav a {
     justify-content: flex-start;
     gap: 6px;
 }
-.tags span {
+.tags span,
+.resume {
     border-radius: 25px;
     background: #f99243;
     padding: 5px 20px;
@@ -129,5 +133,38 @@ div.details {
     width: 200px;
     padding: 10px 30px;
     border: 1px solid #fff;
+    color: #fff;
+}
+
+a.resume {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #111;
+}
+
+.skills-set {
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.skills-set article  {
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 16px;
+}
+
+article li {
+    margin: 10px auto;
+}
+
+footer,
+.contact-me {
+    background-color: #162b54;
+    color: #fff;
+}
+
+.contact-me h2,
+footer a {
     color: #fff;
 }

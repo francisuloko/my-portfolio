@@ -25,7 +25,7 @@
             <h4>Software Developer</h4>
             <p class="summary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi officiis deserunt dolore, illo necessitatibus dolor vel possimus voluptas at ipsa sit perferendis error cupiditate laudantium ipsam explicabo molestias debitis. Et.</p>
             <div class="social-networks flex">
-                <p>Social networks</p>
+                <p>Social Networks</p>
                 <a href="#">
                     <img src="./img/svg/github.svg" alt="Github"></a>
                 <a href="#">
@@ -36,8 +36,22 @@
         </div>
     </div>
     <section class="projects" id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-container">
+        <div class="container">
+            <h2>My Projects</h2>
+            <article class="project">
+                <img src="./img/paddy.jpg" alt="project-screenshot">
+                <div class="project-details">
+                    <h3 class="project-title">Paddy</h3>
+                    <p class="project-summary">A Telegram Bot Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam saepe quae est illo omnis ipsa?</p>
+                    <div class="tags flex">
+                        <span>Ruby</span>
+                        <span href="#">Telegram</span>
+                    </div>
+                    <div class="details">
+                        <a href="#" class="details">See project details >></a>
+                    </div>
+                </div>
+            </article>
             <article class="project">
                 <img src="./img/twosteps.jpeg" alt="project-screenshot">
                 <div class="project-details">
@@ -53,64 +67,52 @@
                     </div>
                 </div>
             </article>
-            <article class="project">
-                <img src="./img/paddy.jpg" alt="project-screenshot">
-                <div class="project-details">
-                    <h3 class="project-title">Paddy</h3>
-                    <p class="project-summary">A Telegram Bot Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam saepe quae est illo omnis ipsa?</p>
-                    <div class="tags flex">
-                        <span>Ruby</span>
-                        <span href="#">Telegram</span>
-                    </div>
-                    <div class="details">
-                        <a href="#" class="details">See project details >></a>
-                    </div>
-                </div>
-            </article>
         </div>
     </section>
     <section class="about-section">
-        <div class="my-summary">
-          <h2>About Me</h2>
-          <p class="about-me">Short Summary</p>
-          <a href="#">Get my resume</a>
-        </div>
-        <div class="skills-set">
-            <article>
-                <h3>Language</h3>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>Ruby</li>
-                    <li>HMTL</li>
-                    <li>CSS</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Framework</h3>
-                <ul>
-                    <li>Ruby on Rails</li>
-                    <li>Bootstrap</li>
-                    <li>Sass</li>
-                    <li>Rspec</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Skills</h3>
-                <ul>
-                    <li>Remote Work</li>
-                    <li>Pair Programming</li>
-                    <li>Mentoring</li>
-                    <li>Ubuntu</li>
-                </ul>
-            </article>
+        <div class="container">
+            <div class="my-summary">
+                <h2>About Me</h2>
+                <p class="about-me">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi officiis deserunt dolore, illo necessitatibus dolor vel possimus voluptas at ipsa sit perferendis error cupiditate laudantium ipsam explicabo molestias debitis. Et.</p>
+                <div class="tags"><a class="resume" href="#">Get my resume</a></div>
+            </div>
+            <div class="skills-set">
+                <article>
+                    <h3>Language</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Ruby</li>
+                        <li>HMTL</li>
+                        <li>CSS</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Framework</h3>
+                    <ul>
+                        <li>Ruby on Rails</li>
+                        <li>Bootstrap</li>
+                        <li>Sass</li>
+                        <li>Rspec</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Remote Work</li>
+                        <li>Pair Programming</li>
+                        <li>Mentoring</li>
+                        <li>Ubuntu</li>
+                    </ul>
+                </article>
+            </div>
         </div>
     </section>
-    <section class="contact-me">
+    <section class="contact-me container">
         <h2>Want to connect?</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to participate in the process.
         </p>
         <form action="#" method="post">
-            <div>
+            <div class="flex">
                 <input type="text" placeholder="Name">
                 <input type="email" class="email" placeholder="Email*">
             </div>
@@ -123,7 +125,7 @@
         </form>
     </section>
     <footer>
-        <div class="contact">
+        <div class="contact container">
             <p>
                 <a href="#">francisuloko@yahoo.com</a>
             </p>
