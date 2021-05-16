@@ -4,141 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
+    <style>
+        /* * { border: 1px solid red; } */
+    </style>
 </head>
 <body>
-    <div class="site-header">
+    <div class="site-header pt-2 pb-5 my-0">
         <span class="overlay"></span>
-        <header class="flex">
-            <div class="logo">
-                <img id="profile-picture" src="./img/profile-photo.jpeg" alt="FU">
+        <header class="container my-3">
+            <div class="row">
+                <div class="col-3"> 
+                    <img class="rounded-circle w-100" src="./img/profile-photo.jpeg" alt="FU">
+                </div>
+                <nav class="col-9 d-flex align-items-center">
+                    <a class="mx-2 p-2 text-white" href="#projects">Projects</a>
+                    <a class="mx-2 p-2  text-white" href="#about">About</a>
+                    <a class="mx-2 p-2  text-white" href="#contact">Contact</a>
+                </nav>
             </div>
-            <nav class="flex">
-                <a href="#projects">Projects</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </nav>
         </header>
-        <div class="welcome">
-            <h1>Francis Uloko</h1>
-            <h4>Software Developer</h4>
-            <p class="summary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi officiis deserunt dolore, illo necessitatibus dolor vel possimus voluptas at ipsa sit perferendis error cupiditate laudantium ipsam explicabo molestias debitis. Et.</p>
-            <div class="social-networks flex">
-                <p>Social Networks</p>
-                <a href="#">
-                    <img src="./img/svg/github.svg" alt="Github"></a>
-                <a href="#">
-                    <img src="./img/svg/linkedin.svg" alt="Linkedin"></a>
-                <a href="#">
-                    <img src="./img/svg/twitter.svg" alt="Twitter"></a>
+        <div class="welcome container d-flex flex-column mt-5 mb-0">            
+            <h1 class="fs-1">Francis Uloko</h1>
+            <h4 class="fs-4">Software Developer</h4>
+            <p class="summary w-75">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi officiis deserunt dolore, illo necessitatibus dolor vel possimus voluptas at ipsa sit perferendis error cupiditate laudantium ipsam explicabo molestias debitis. Et.</p>
+            <div class="social-networks d-flex p-1 bg-white text-dark w-75 rounded">
+                <p class="p-2 m-0">Social Networks </p>
+                <a class="p-2" href="#"><i class="bi bi-github"></i></a>
+                <a class="p-2" href="#"><i class="bi bi-linkedin"></i></a>
+                <a class="p-2" href="#"><i class="bi bi-twitter"></i></a>
             </div>
         </div>
     </div>
-    <section class="projects" id="projects">
+    <section class="projects container mt-3" id="projects">
         <div class="container">
-            <h2>My Projects</h2>
-            <article class="project">
-                <img src="./img/paddy.jpg" alt="project-screenshot">
-                <div class="project-details">
-                    <h3 class="project-title">Paddy</h3>
-                    <p class="project-summary">A Telegram Bot Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam saepe quae est illo omnis ipsa?</p>
-                    <div class="tags flex">
-                        <span>Ruby</span>
-                        <span href="#">Telegram</span>
-                    </div>
-                    <div class="details">
-                        <a href="#" class="details">See project details >></a>
-                    </div>
-                </div>
-            </article>
-            <article class="project">
-                <img src="./img/twosteps.jpeg" alt="project-screenshot">
-                <div class="project-details">
-                    <h3 class="project-title">TwoSteps</h3>
-                    <p class="project-summary">A hotels director Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam saepe quae est illo omnis ipsa?</p>
-                    <div class="tags flex">
-                        <span>HTML</span>
-                        <span href="#">CSS</span>
-                    </div>
-                    <div class="details">
-                        <a href="#" >See project details</a>
-                        
+            <h2 class="fs-2 py-3">My Projects</h2>
+            <div class="d-flex flex-column align-items-center">
+                <div class="card mb-3">
+                    <img src="./img/paddy.jpg" class="card-img-top" alt="telgram bot project">
+                    <div class="card-body">
+                    <h5 class="card-title">Paddy</h5>
+                    <p class="card-text">A telegram bot that scrapes the web for news headlines around the world</p>
+                    <ul class="list-group list-group-horizontal mb-2">
+                        <li class="list-group-item p-1">Ruby</li>
+                        <li class="list-group-item p-1">Telegram</li>
+                        <li class="list-group-item p-1">Rspec</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">See project details</a>
                     </div>
                 </div>
-            </article>
+                <div class="card mb-3">
+                    <img src="./img/twosteps.jpeg" class="card-img-top" alt="hotels directory project">
+                    <div class="card-body">
+                    <h5 class="card-title">TwoSteps</h5>
+                    <p class="card-text">A directory of international hotels</p>
+                    <ul class="list-group list-group-horizontal mb-2">
+                        <li class="list-group-item p-1">HTML</li>
+                        <li class="list-group-item p-1">CSS</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">See project details</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="about-section">
+    <section class="about-section container" id='about'>
         <div class="container">
-            <div class="my-summary">
-                <h2>About Me</h2>
-                <p class="about-me">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi officiis deserunt dolore, illo necessitatibus dolor vel possimus voluptas at ipsa sit perferendis error cupiditate laudantium ipsam explicabo molestias debitis. Et.</p>
-                <div class="tags"><a class="resume" href="#">Get my resume</a></div>
+            <h2 class="fs-2 py-3">About Me</h2>
+            <p class="about-me">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi officiis deserunt dolore, illo necessitatibus dolor vel possimus voluptas at ipsa sit perferendis error cupiditate laudantium ipsam explicabo molestias debitis. Et.</p>
+            <a href="#" class="btn btn-primary">Get my resume</a>
             </div>
-            <div class="skills-set">
-                <article>
-                    <h3>Language</h3>
-                    <ul>
+            <div class="skills-set container my-4">
+                <div class="card text-dark bg-light mb-3">
+                    <div class="card-header">Language</div>
+                    <div class="card-body">
+                        <ul>
                         <li>JavaScript</li>
                         <li>Ruby</li>
                         <li>HMTL</li>
                         <li>CSS</li>
                     </ul>
-                </article>
-                <article>
-                    <h3>Framework</h3>
-                    <ul>
-                        <li>Ruby on Rails</li>
-                        <li>Bootstrap</li>
-                        <li>Sass</li>
-                        <li>Rspec</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>Remote Work</li>
-                        <li>Pair Programming</li>
-                        <li>Mentoring</li>
-                        <li>Ubuntu</li>
-                    </ul>
-                </article>
+                    </div>
+                </div>
+                <div class="card text-dark bg-light mb-3">
+                    <div class="card-header">Framework</div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Ruby on Rails</li>
+                            <li>Bootstrap</li>
+                            <li>Sass</li>
+                            <li>Rspec</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card text-dark bg-light mb-3">
+                    <div class="card-header">Skills</div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Remote Work</li>
+                            <li>Pair Programming</li>
+                            <li>Mentoring</li>
+                            <li>Ubuntu</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="contact-me container">
-        <h2>Want to connect?</h2>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to participate in the process.
-        </p>
-        <form action="#" method="post">
-            <div class="flex">
-                <input type="text" placeholder="Name">
-                <input type="email" class="email" placeholder="Email*">
+    <section class="contact site-header border border-top bg-light ext-whit py-5 mt-5" id="contact">
+        <span class="overlay"></span>
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-3 align-self-center m-0 p-2">
+                    <img class=" w-100 mw-50 rounded-circle" src="./img/profile-photo.jpeg" alt="profile photo">
+                </div>
+                <div class="col-9  align-self-center m-0 p-2">
+                    <h2 class="fs-2">Want to connect?</h2>
+                    <p class="m-0">If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to participate.</p>
+                </div>
             </div>
-            <div>
-                <textarea name="message" id="message" placeholder="Messsage*"></textarea>
-            </div>
-            <div>
-                <input type="submit" class="submit" value="Get in touch">
-            </div>
-        </form>
+            <form class="action="#" method="post">
+                <div class="row">
+                    <div class="col-6">
+                      <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+                    </div>
+                    <div class="col-6">
+                      <input type="email" class="form-control" placeholder="Email*" aria-label="Email" required>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message*" required></textarea>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <button type="submit" class="btn btn-primary mb-3">Get in touch</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
-    <footer>
+    <!-- <footer class="bg-primary text-white text-center border-top p-3">
         <div class="contact container">
-            <p>
-                <a href="#">francisuloko@yahoo.com</a>
-            </p>
-            <div class="social-icons">
-                <a href="#">Github</a>
-                <a href="">LinkedIn</a>
-                <a href="">Twitter</a>
-                <a href="">Others</a>
-            </div>
-            <div>
-                <p class="copyrigh">Francis Uloko &copy; 2020. All rights reversed.</p>
-            </div>
+            <p class="copyrigh m-0 -0">Francis Uloko &copy; 2020. All rights reversed.</p>
         </div>
-    </footer>
+    </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
