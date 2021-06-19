@@ -16,6 +16,7 @@ body {
 .vector {
   background: linear-gradient(257.1deg, #ae35eb 27.51%, #4052F0 113.53%);
   background-blend-mode: screen;
+  width: 100%;
 }
 
 .form-control {
