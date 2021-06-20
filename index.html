@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-  <header class="p-3 bg-dark text-white" id='header'>
+  <header class="p-3 bg-dark text-white border-bottom" id='header'>
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
       <div class='d-none d-lg-block' style='width: 270px'>
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -18,22 +18,24 @@
         </a>
       </div>
 
-      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center justify-content-md-start mb-md-0">
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="#about" class="nav-link text-white px-0 mx-0">About</a></li>
         <li><a href="#projects" class="nav-link px-3 text-white">Projects</a></li>
+        <li><a href="#projects" class="nav-link px-3 text-white d-lg-none">Contact</a></li>
       </ul>
         
       <div class="text-end d-none d-lg-block">
         <a class="me-2" href="https://www.github.com/francisuloko"><i class="bi bi-github text-white"></i></a>
         <a class="me-2" href="https://www.linkedin.com/in/francisuloko/"><i class="bi bi-linkedin text-white"></i></a>
         <a class="me-2" href="https://www.twitter.com/francisuloko"><i class="bi bi-twitter text-white"></i></a>
-        <a href="#contact" class="btn btn-warning">Contact Me</a>
+        <a href="#contact d-md-block" class="btn btn-warning">Contact Me</a>
       </div>
+
     </div>
   </header>
 
   <main class="d-flex">
-      <aside class="d-flex flex-column flex-shrink-0 p-3 bg-light d-none d-lg-block" style="width: 280px;">
+      <aside class="d-flex flex-column flex-shrink-0 p-3 bg-light d-none d-lg-block" style="">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
             <img class="rounded-circle me-2" style="width: 45px; height: auto;" src="./img/profile-photo.jpeg" alt="profile photo">
             Francis Uloko
@@ -66,296 +68,301 @@
             </li>
           </ul>
       </aside>
-      <div class="p-0">
+      <section class="w-100">
         <!-- HERO SECTION -->
-        <div class="p-5 m-0 vecto text-white">
-            <h1 class="display-3 fw-bold">FRANCIS ULOKO</h1>
+        <section class="p-5 m-auto text-white bg-dark text-center text-lg-start">
+            <h1 class="display-5 fw-bold">FRANCIS ULOKO</h1>
             <h2>Software Developer</h2>
-            <div class="col-lg-8 col-md-10">
-            <p class="lead mb-4">Product development goes beyond conceiving ideas; it involves 
-              employing the right technologies and tools that will satisfy all product specifications
-              and constraints while still bringing the finished product to the market within a given time frame. 
-              As Software Developers, we have a key role to play in this process. Let me help you
-              quickly design and customize responsive mobile-first sites with the industry's top tools and technologies I use in all my projects.</p>
-            <div class="d-flex justify-content-between py-2 px-4 bg-white rounded-pill">
-                <span class="text-dark me-3">Social Networks </span>
-                <div class="d-flex justify-content-evenly">
-                    <a class="me-2" href="https://www.github.com/francisuloko"><i class="bi bi-github"></i></a>
-                    <a class="me-2" href="https://www.linkedin.com/in/francisuloko/"><i class="bi bi-linkedin"></i></a>
-                    <a class="me-2" href="https://www.twitter.com/francisuloko"><i class="bi bi-twitter"></i></a>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <!-- PROJECTS SECTION -->
-        <div class="container p-5" id="projects">        
-          <h2 class="pb-2 border-bottom">My Projects</h2>
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/twitter_PNG1.png'); background-size: contain; background-repeat: no-repeat;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Twitter Redesign</h2>
-                    <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                      <div class="d-flex">
-                      <li class="me-auto">
-                        <img src="./img/rails.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Rails Capstone</small>
-                      </li>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-8">
+                  <p class="mb-4">Product development goes beyond conceiving ideas; it involves 
+                    employing the right tools and technologies that will satisfy all product specifications
+                    and constraints while still bringing the finished product to the market. 
+                    As Software Developers, we have a key role to play in this process. Let me help you
+                    quickly design and customize responsive mobile-first sites with the industry's top tools and technologies.
+                  </p>
+                  <div class="d-flex justify-content-between py-2 px-4 bg-white rounded-pill">
+                      <span class="text-dark me-3">Social Networks</span>
+                      <div class="d-flex justify-content-evenly">
+                          <a class="me-2 text-dark" href="https://www.github.com/francisuloko"><i class="bi bi-github"></i></a>
+                          <a class="me-2 text-dark" href="https://www.linkedin.com/in/francisuloko/"><i class="bi bi-linkedin"></i></a>
+                          <a class="me-2 text-dark" href="https://www.twitter.com/francisuloko"><i class="bi bi-twitter"></i></a>
                       </div>
-                      <li class="d-flex align-items-center">
-                        <!-- Button -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                          <i class="bi bi-arrows-fullscreen"></i>
-                        </button>
-                        
-                        <!-- Modal -->
-                        <div class="modal fade text-dark" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title text-dark" id="exampleModalLabel">Twitter Redesing Capstone</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                <img class='w-100' src="./img/screenshot.png" alt="">
-                                <p class="p-3">
-                                  This project demonstrates my overall understanding of Ruby on Rails. In building this project, I have:
-                                  <ul>
-                                    <li>Use MVC architectural pattern</li>
-                                    <li>Configure RESTFUL routes</li>
-                                    <li>Use controllers to intercept user requests</li>
-                                    <li>Use view templates for HTML with embedded data</li>
-                                    <li>Connect Database to app using postgres</li>
-                                    <li>Use Active Record as ORM</li>
-                                    <li>Use Active Record associations to model real life system (based on Database schema)</li>
-                                    <li>Use Active Record queries to translate app requirements to SQL queries</li>
-                                    <li>Use ActiveRecord validations</li>
-                                    <li>Pass user input from view through controller to model in a safe way</li>
-                                    <li>Remember about thin controllers and distinction between logic and presentation tiers</li>
-                                    <li>Avoid n+1 queries problem</li>
-                                    <li>Use unit tests (Rspec)</li>
-                                    <li>Use ActiveRecord validations</li>
-                                    <li>Deploy apps heroku</li>
-                                    <li>Translate business requirements into software solutions</li>
-                                  </ul>
-                                </p>
-                              </div>
-                              <div class="modal-footer">
-                                <a href="https://twitter-redesign-capstone.herokuapp.com/" class="btn btn-primary">Code</a>
-                                <a href="https://github.com/francisuloko/twitter-redesign-capstone" class="btn btn-primary">Preview</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/1c39c81fccba10c48869ce903c533845.png'); background-size: 100% 100%; background-repeat: no-repeat;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Telegram Bot</h2>
-                    <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                      <div class="d-flex">
-                      <li class="me-0">
-                        <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-2">
-                        <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Ruby Capstone</small>
-                      </li>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="container px-5 pt-4 pb-0" id="projects">        
+          <h2 class="pb-2 border-bottom">My Projects</h2>
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/twitter_PNG1.png'); background-size: contain; background-repeat: no-repeat;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Twitter Redesign</h2>
+                  <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
+                    <div class="d-flex">
+                    <li class="me-auto">
+                      <img src="./img/rails.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Rails Capstone</small>
+                    </li>
                     </div>
                     <li class="d-flex align-items-center">
                       <!-- Button -->
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         <i class="bi bi-arrows-fullscreen"></i>
                       </button>
                       
                       <!-- Modal -->
-                      <div class="modal fade text-dark" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade text-dark" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title text-dark" id="exampleModalLabel">Telegram Bot Paddy</h5>
+                              <h5 class="modal-title text-dark" id="exampleModalLabel">Twitter Redesing Capstone</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              <img class='w-100' src="./img/paddy.jpg" alt="">
-                              <p class="p-2">
-                                This is a solo project to build a bot by putting into practice the concepts of Object Oriented Programming (OOP) learned in Ruby Module. I have demonstrated the use of classes (and Module) in Ruby and how to access their properties and methods. Here is a brief description of my bot.
-                              </p>
-                              <p class="p-2">
-                                Paddy (@PaddyMyBot) is a bot built using telegram bot API. It has the ability to scrape news channels and display the latest news headlines in the user's chat. The idea behind this project is to enable fast paced individuals to be on the know by looking at news headlines.
+                              <img class='w-100' src="./img/screenshot.png" alt="">
+                              <p class="p-3">
+                                This project demonstrates my overall understanding of Ruby on Rails. In building this project, I have:
+                                <ul>
+                                  <li>Use MVC architectural pattern</li>
+                                  <li>Configure RESTFUL routes</li>
+                                  <li>Use controllers to intercept user requests</li>
+                                  <li>Use view templates for HTML with embedded data</li>
+                                  <li>Connect Database to app using postgres</li>
+                                  <li>Use Active Record as ORM</li>
+                                  <li>Use Active Record associations to model real life system (based on Database schema)</li>
+                                  <li>Use Active Record queries to translate app requirements to SQL queries</li>
+                                  <li>Use ActiveRecord validations</li>
+                                  <li>Pass user input from view through controller to model in a safe way</li>
+                                  <li>Remember about thin controllers and distinction between logic and presentation tiers</li>
+                                  <li>Avoid n+1 queries problem</li>
+                                  <li>Use unit tests (Rspec)</li>
+                                  <li>Use ActiveRecord validations</li>
+                                  <li>Deploy apps heroku</li>
+                                  <li>Translate business requirements into software solutions</li>
+                                </ul>
                               </p>
                             </div>
                             <div class="modal-footer">
-                              <a href="https://github.com/francisuloko/telegram-bot" class="btn btn-primary">Code</a>
+                              <a href="https://twitter-redesign-capstone.herokuapp.com/" class="btn btn-primary">Code</a>
+                              <a href="https://github.com/francisuloko/twitter-redesign-capstone" class="btn btn-primary">Preview</a>
                             </div>
                           </div>
                         </div>
                       </div>
                     </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/tictactoe.png'); background-size: 100% 100%; background-repeat: no-repeat;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">TicTacToe</h2>
-                    <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                      <div class="d-flex">
-                        <li class="">
-                          <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                          <small>Ruby</small>
-                        </li>
-                      </div>              
-                      <li class="d-flex align-items-center">
-                        <!-- Button -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                          <i class="bi bi-arrows-fullscreen"></i>
-                        </button>
-                        
-                        <!-- Modal -->
-                        <div class="modal fade text-dark" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title text-dark" id="exampleModalLabel">Tic Tac Toe</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                <img class='w-100' src="./img/tictactoe2.png" alt="">
-                                <p class="p-2">
-                                  This is a colloborative project to build a game of TicTacToe putting into practice the concepts of Object Oriented Programming (OOP). We have demonstrated the use of classes in Ruby and how to access their properties and methods. Here is a brief description of TicTacToe.                                 
-                                </p>
-                                <p class="p-2">
-                                  TicTacToe - "a game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares" (Oxford Dictionary).
-                                </p>
-                              </div>
-                              <div class="modal-footer">
-                                <a href="https://github.com/francisuloko/tic-tac-toe" class="btn btn-primary">Code</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/hotel1.jpeg'); background-size: 100% 100%; background-repeat: no-repeat;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Hotels Directory</h2>
-                    <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                      <div class="d-flex">
-                      <li class="me-0">
-                        <img src="./img/html5.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-2">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>HTML/CSS Capstone</small>
-                      </li>
-                      </div>
-                      <li class="d-flex align-items-center">
-                        <!-- Button -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                          <i class="bi bi-arrows-fullscreen"></i>
-                        </button>
-                        
-                        <!-- Modal -->
-                        <div class="modal fade text-dark" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title text-dark" id="exampleModalLabel">Hotels Directory</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                <img class='w-100' src="./img/twosteps.jpeg" alt="">
-                                <p class="p-3">
-                                  This project involves building a responsive, mobile first, Hotel directory called TwoSteps. This hotel directory enables a user to find hotels around the world. The web app displays the details of a registered hotel in two simple steps by 1.) entering a search criteria and 2.) selecting a hotel from the list of search results. The name of the app is derived from the number of actions (two steps) required to land on a hotel's page.
-                                </p>
-                              </div>
-                              <div class="modal-footer">
-                                <a href="https://github.com/francisuloko/html-css-capstone-proj" class="btn btn-primary">Code</a>
-                                <a href="https://francisuloko.github.io/html-css-capstone-proj/" class="btn btn-primary">Preview</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/newsweek.jpeg'); background-size: 100% 100%; background-repeat: no-repeat;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Newsweek</h2>
-                    <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                      <div class="d-flex">
-                      <li class="me-0">
-                        <img src="./img/bootstrap-5-1.svg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-2">
-                        <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Bootstrap</small>
-                      </li>
-                      </div>
-                      <li class="d-flex align-items-center">
-                        <!-- Button -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                          <i class="bi bi-arrows-fullscreen"></i>
-                        </button>
-                        
-                        <!-- Modal -->
-                        <div class="modal fade text-dark" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title text-dark" id="exampleModalLabel">Newsweek</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                <img class='w-100' src="./img/newsweekscreenshot.png" alt="">
-                                <p class="p-2">
-                                  This collaborative project was create a clone of Newsweek website. In this exercise, Bootstrap framework are applied in order to create the layout of the website to be fully responsive.
-                                </p>
-                                <p class="p-2 pt-0">
-                                  In this project, a mobile-first approach was used.
-                                </p>
-                              </div>
-                              <div class="modal-footer">
-                                <a href="https://github.com/francisuloko/newsweek-clone" class="btn btn-primary">Code</a>
-                                <a href="https://carlos-osorio-developer.github.io/mv-week3-bootstrap/" class="btn btn-primary">Preview</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                  </ul>
                 </div>
               </div>
             </div>
-        </div>
+      
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/1c39c81fccba10c48869ce903c533845.png'); background-size: 100% 100%; background-repeat: no-repeat;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Telegram Bot</h2>
+                  <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
+                    <div class="d-flex">
+                    <li class="me-0">
+                      <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-2">
+                      <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Ruby Capstone</small>
+                    </li>
+                  </div>
+                  <li class="d-flex align-items-center">
+                    <!-- Button -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      <i class="bi bi-arrows-fullscreen"></i>
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade text-dark" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title text-dark" id="exampleModalLabel">Telegram Bot Paddy</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img class='w-100' src="./img/paddy.jpg" alt="">
+                            <p class="p-2">
+                              This is a solo project to build a bot by putting into practice the concepts of Object Oriented Programming (OOP) learned in Ruby Module. I have demonstrated the use of classes (and Module) in Ruby and how to access their properties and methods. Here is a brief description of my bot.
+                            </p>
+                            <p class="p-2">
+                              Paddy (@PaddyMyBot) is a bot built using telegram bot API. It has the ability to scrape news channels and display the latest news headlines in the user's chat. The idea behind this project is to enable fast paced individuals to be on the know by looking at news headlines.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="https://github.com/francisuloko/telegram-bot" class="btn btn-primary">Code</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/tictactoe.png'); background-size: 100% 100%; background-repeat: no-repeat;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">TicTacToe</h2>
+                  <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
+                    <div class="d-flex">
+                      <li class="">
+                        <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Ruby</small>
+                      </li>
+                    </div>              
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade text-dark" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark" id="exampleModalLabel">Tic Tac Toe</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class='w-100' src="./img/tictactoe_livedemo.gif" alt="">
+                              <p class="p-2">
+                                This is a colloborative project to build a game of TicTacToe putting into practice the concepts of Object Oriented Programming (OOP). We have demonstrated the use of classes in Ruby and how to access their properties and methods. Here is a brief description of TicTacToe.                                 
+                              </p>
+                              <p class="p-2">
+                                TicTacToe - "a game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares" (Oxford Dictionary).
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <a href="https://github.com/francisuloko/tic-tac-toe" class="btn btn-primary">Code</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/hotel1.jpeg'); background-size: 100% 100%; background-repeat: no-repeat;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Hotels Directory</h2>
+                  <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
+                    <div class="d-flex">
+                    <li class="me-0">
+                      <img src="./img/html5.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-2">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>HTML/CSS Capstone</small>
+                    </li>
+                    </div>
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade text-dark" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark" id="exampleModalLabel">Hotels Directory</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class='w-100' src="./img/twosteps.jpeg" alt="">
+                              <p class="p-3">
+                                This project involves building a responsive, mobile first, Hotel directory called TwoSteps. This hotel directory enables a user to find hotels around the world. The web app displays the details of a registered hotel in two simple steps by 1.) entering a search criteria and 2.) selecting a hotel from the list of search results. The name of the app is derived from the number of actions (two steps) required to land on a hotel's page.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <a href="https://github.com/francisuloko/html-css-capstone-proj" class="btn btn-primary">Code</a>
+                              <a href="https://francisuloko.github.io/html-css-capstone-proj/" class="btn btn-primary">Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/newsweek.jpeg'); background-size: 100% 100%; background-repeat: no-repeat;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Newsweek</h2>
+                  <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
+                    <div class="d-flex">
+                    <li class="me-0">
+                      <img src="./img/bootstrap-5-1.svg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-2">
+                      <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Bootstrap</small>
+                    </li>
+                    </div>
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade text-dark" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark" id="exampleModalLabel">Newsweek</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class='w-100' src="./img/newsweekscreenshot.png" alt="">
+                              <p class="p-2">
+                                This collaborative project was create a clone of Newsweek website. In this exercise, Bootstrap framework are applied in order to create the layout of the website to be fully responsive.
+                              </p>
+                              <p class="p-2 pt-0">
+                                In this project, a mobile-first approach was used.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <a href="https://github.com/francisuloko/newsweek-clone" class="btn btn-primary">Code</a>
+                              <a href="https://carlos-osorio-developer.github.io/mv-week3-bootstrap/" class="btn btn-primary">Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <!-- ABOUT ME -->
-        <section class="container-fluid px-5" id='about'>
+        <section class="p-5 pt-3" id='about'>
             <h2 class="pb-2 border-bottom">About Me</h2>
             <p class="col-md-10 fs-5 mt-4">
               I have been a web developer since 2019. In February 2021, I joined the Microverse Software Development bootcamp which requires over 1000+ hours to master the top tools and technologies used in the industry while building real world projects. In my time, I learnt remote work, pair-programming, mentoring and a bunch of other soft skills.
@@ -367,67 +374,62 @@
               In the future, I look forward to learning about the Internet of Things (IoT) and the ways it can be used to make product packaging smart. In my spare time, I listen to music and meditate and I'm always open for a game of Chess.
             </p>
             
-            <a href="https://docs.google.com/document/d/1hiQZKzKRfw3I6uK1LfPPrzn-sAE8SLvBYn0uQw5L3xg/edit?usp=sharing" class="btn btn-primary fs-5 my-3 py-3 px-5">Get My Resume</a>
-        </section>
+            <a href="https://docs.google.com/document/d/1hiQZKzKRfw3I6uK1LfPPrzn-sAE8SLvBYn0uQw5L3xg/edit?usp=sharing" class="btn btn-primary fs-5 my-3 py-2 px-3">Get My Resume</a>
 
-        <section class="container px-5" id="hanging-icons">
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3 mt-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-emoji-sunglasses-fill" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM2.31 5.243A1 1 0 0 1 3.28 4H6a1 1 0 0 1 1 1v.116A4.22 4.22 0 0 1 8 5c.35 0 .69.04 1 .116V5a1 1 0 0 1 1-1h2.72a1 1 0 0 1 .97 1.243l-.311 1.242A2 2 0 0 1 11.439 8H11a2 2 0 0 1-1.994-1.839A2.99 2.99 0 0 0 8 6c-.393 0-.74.064-1.006.161A2 2 0 0 1 5 8h-.438a2 2 0 0 1-1.94-1.515L2.31 5.243zM4.969 9.75A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .866-.5z"/>
-                    </svg>
-                </div>
-                <div>
-                    <h2>Language</h2>
-                    <div class="d-flex flex-column">
-                    <span>JavaScript</span>
-                    <span>Ruby</span>
-                    <span>Python</span>
-                    <span>HMTL</span>
-                    <span>CSS</span>
-                </div>
-                </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3 mt-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-layers-fill" viewBox="0 0 16 16">
-                        <path d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z"/>
-                        <path d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z"/>
-                    </svg>
-                </div>
-                <div>
-                    <h2>Framework</h2>
-                    <div class="d-flex flex-column">
-                    <span>Ruby on Rails</span>
-                    <span>Bootstrap</span>
-                    <span>Sass</span>
-                    <span>Rspec</span>
+            <section class="container px-5 bg-light rounded mt-5" id="hanging-icons">
+                <div class="row g-4 py-5 row-cols-1 row-cols-md-3">
+                    <div class="col d-flex align-items-start">
+                      <div class="icon-square bg-light text-dark flex-shrink-0 me-3 mt-2">
+                        <i class="bi bi-code-slash"></i>
+                      </div>
+                      <div>
+                        <h2>Language</h2>
+                        <div class="d-flex flex-column">
+                          <span>JavaScript</span>
+                          <span>Ruby</span>
+                          <span>Python</span>
+                          <span>HMTL</span>
+                          <span>CSS</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col d-flex align-items-start">
+                      <div class="icon-square bg-light text-dark flex-shrink-0 me-3 mt-2">
+                        <i class="bi bi-percent"></i>
+                      </div>
+                      <div>
+                        <h2>Framework</h2>
+                        <div class="d-flex flex-column">
+                          <span>Ruby on Rails</span>
+                          <span>Bootstrap</span>
+                          <span>Sass</span>
+                          <span>Rspec</span>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="col d-flex align-items-start">
+                      <div class="icon-square bg-light text-dark flex-shrink-0 me-3 mt-2">
+                        <i class="bi bi-tools"></i>
+                      </div>
+                      <div>
+                        <h2>Skills</h2>
+                        <div class="d-flex flex-column">
+                          <span>Remote Work</span>
+                          <span>Pair Programming</span>
+                          <span>Mentoring</span>
+                          <span>Ubuntu</span>
+                        </div>
+                      </div>
                     </div>
                 </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3 mt-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
-                        <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
-                        </svg>
-                </div>
-                <div>
-                    <h2>Skills</h2>
-                    <div class="d-flex flex-column">
-                    <span>Remote Work</span>
-                    <span>Pair Programming</span>
-                    <span>Mentoring</span>
-                    <span>Ubuntu</span>
-                </div>
-                </div>
-            </div>
-        </div>
+            </section>
         </section>
 
+
         <!-- CONTACT ME FORM -->
-        <section class="contact vector banne py-5 mt-5" id="contact">
-            <span class="overlay"></span>
+        <section class="bg-dark text-white p-5" id="contact">
             <div class="container">
                 <div class="row mb-3">
                     <div class="md-block col-md-3 align-self-start m-0 p-2">
@@ -439,15 +441,15 @@
                           If you have an application you are interested in developing, a feature that you need built or a project that needs coding, I’d love to participate.
                         </p>
                         <form action="mailto:francisuloko@yahoo.com" method="post">
-                            <div class="row">
-                              <div class="col-sm-12 col-md-6">
+                            <div class="row g-3">
+                              <div class="col-sm-12 col-lg-6">
                                     <input type="text" class="form-control" placeholder="Name" aria-label="First name">
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-lg-6">
                                     <input type="email" class="form-control" placeholder="Email*" aria-label="Email" required>
                                 </div>
                                 <div class="col-12 mt-3">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message*" required></textarea>
+                                    <textarea class="form-control pt-0 mt-0" id="exampleFormControlTextarea1" rows="8" placeholder="Message*" required></textarea>
                                 </div>
                                 <div class="col-12 mt-3">
                                     <button type="submit" class="btn btn-primary fs-5 my-3 py-2 px-4">Get in touch</button>
@@ -458,10 +460,10 @@
                 </div>
             </div>
         </section>
-      </div>
+      </section>
   </main>
 
-  <footer class="p-2 bg-dark text-white d-flex justify-content-between align-items-center">
+  <footer class="p-2 bg-dark border-top text-white d-flex justify-content-between align-items-center">
       <ul class="nav mb-2 justify-content-center justify-content-md-start mb-md-0 d-none d-md-flex">
         <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
         <li><a href="#projects" class="nav-link px-2 text-white">Projects</a></li>
@@ -477,7 +479,7 @@
       </div>
   </footer>
 
-  <script src=".https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src=".https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </body>
 </html>
