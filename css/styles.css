@@ -17,7 +17,7 @@ body {
 
 .banner {
     position: relative;
-    background-image: url('../img/herobg.jpg');
+    background-image: url('/img/herobg.jpg');
     background-blend-mode: screen;
     background-repeat: no-repeat;
     background-size: cover;
