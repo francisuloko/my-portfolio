@@ -5,6 +5,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.z-10 {
+    z-index: 10
+}
+
 p {
     text-align: justify;
     text-justify: inter-word;

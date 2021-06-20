@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-  <header class="p-3 bg-black text-white" id='header'>
+  <header class="p-3 bg-black text-white  z-10" id='header'>
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
       <div class='d-none d-lg-block' style='width: 180px'>
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -21,20 +21,20 @@
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="#about" class="nav-link text-white px-0 mx-0">About</a></li>
         <li><a href="#projects" class="nav-link px-3 text-white">Projects</a></li>
-        <li><a href="#projects" class="nav-link px-3 text-white d-lg-none">Contact</a></li>
+        <li><a href="#contact" class="nav-link px-3 text-white d-lg-none">Contact</a></li>
       </ul>
         
       <div class="text-end d-none d-lg-block">
         <a class="me-2" href="https://www.github.com/francisuloko"><i class="bi bi-github text-white"></i></a>
         <a class="me-2" href="https://www.linkedin.com/in/francisuloko/"><i class="bi bi-linkedin text-white"></i></a>
         <a class="me-2" href="https://www.twitter.com/francisuloko"><i class="bi bi-twitter text-white"></i></a>
-        <a href="#contact d-md-block" class="btn btn-warning">Contact Me</a>
+        <a href="#contact" class="btn btn-warning">Contact Me</a>
       </div>
 
     </div>
   </header>
 
-  <main class="d-flex">
+  <main class="d-flex p-10">
       <aside class="d-flex flex-column flex-shrink-0 p-3 bg-light d-none d-lg-block" style="">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
             <img class="rounded-circle me-2" style="width: 45px; height: auto;" src="./img/profile-photo.jpeg" alt="profile photo">
@@ -71,7 +71,7 @@
       <section class="w-100">
         <!-- HERO SECTION -->
         <section class="m-auto text-white bg-dark text-center text-lg-start banner">
-          <div class="p-5" id="overlay">
+          <div class="p-3" id="overlay">
             <div class="" id='text'>
               <h1 class="display-6 fw-bol">FRANCIS ULOKO</h1>
               <h2 class="fs-3 fst-italic">Software Developer</h2>
@@ -433,7 +433,8 @@
 
 
         <!-- CONTACT ME FORM -->
-        <section class="bg-black text-white p-5" id="contact">
+        <section class="bg-black text-white banner" id="contact">
+          <div class="p-3" id="overlay">
             <div class="container">
                 <div class="row mb-3">
                     <div class="md-block col-md-3 align-self-start m-0 p-2">
@@ -442,7 +443,7 @@
                     <div class="col-sm-12 col-md-9 justify-content-between align-self-start m-0 px-4">
                         <h2 class="fs-1 my-0">Love to hear from You</h2>
                         <p class="my-3 col-sm-12 col-md-10 fs-4">
-                          If you have an application you are interested in developing, a feature that you need built or a project that needs coding, I’d love to participate.
+                          If you have an application you are interested in developing, a feature that you need built or a project that needs coding, get in touch now.
                         </p>
                         <form action="mailto:francisuloko@yahoo.com" method="post">
                             <div class="row g-3">
@@ -455,19 +456,23 @@
                                 <div class="col-12 mt-3">
                                     <textarea class="form-control pt-0 mt-0" id="exampleFormControlTextarea1" rows="8" placeholder="Message*" required></textarea>
                                 </div>
-                                <div class="col-12 mt-3">
-                                    <button type="submit" class="btn btn-primary fs-5 my-3 py-2 px-4">Get in touch</button>
+                                <div class="">
+                                  <span class="text-secondary fst-italic">francisuloko@yahoo.com</span>                                  
+                                </div>
+                                <div class="col-12 mt-0">
+                                    <button type="submit" class="btn btn-primary fs-5 my-3 py-2 px-4">Send Message</button>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
+          </div>
         </section>
       </section>
   </main>
 
-  <footer class="p-2 bg-black border-top text-white d-flex justify-content-between align-items-center">
+  <footer class="p-2 bg-black text-white d-flex justify-content-between align-items-center">
       <ul class="nav mb-2 justify-content-center justify-content-md-start mb-md-0 d-none d-md-flex">
         <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
         <li><a href="#projects" class="nav-link px-2 text-white">Projects</a></li>
@@ -479,7 +484,6 @@
         <a class="me-2" href="https://www.github.com/francisuloko"><i class="bi bi-github text-white"></i></a>
         <a class="me-2" href="https://www.linkedin.com/in/francisuloko/"><i class="bi bi-linkedin text-white"></i></a>
         <a class="me-2" href="https://www.twitter.com/francisuloko"><i class="bi bi-twitter text-white"></i></a>
-        <a href="#top" class="btn btn-warning">Top</a>
       </div>
   </footer>
 
