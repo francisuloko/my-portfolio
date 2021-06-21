@@ -1,6 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-
 # My Software Development Portfolio
 
 > I am a Full Stack Developer, check out my porfolio!
