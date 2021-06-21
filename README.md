@@ -3,7 +3,7 @@
 
 # My Software Development Portfolio
 
-> I am a Full Stack Developer, welcome to my world!
+> I am a Full Stack Developer, check out my porfolio!
 
 ## Screenshots
 
@@ -42,7 +42,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://francisuloko.github.io/my-portfolio/)
+[Go to my portfolio](https://francisuloko.github.io/my-portfolio/)
 
 
 ## Clone Repo
@@ -55,23 +55,23 @@ Open your terminal and run the following commands:
 
    - `cd my-portfolio`
 
-Open index.html in the project :root directory using live server
+Open up with Live Server
    
-   - `Open index.hmtl in browser`
+   - `Alt+L Alt+O`
 
 ## Prerequisites
 
 - `browser`
-- `code editor e.g vscode`
+- `vscode + liveserver`
 - `git`
 
 ## Author
 
 👤 **Francis Uloko**
 
-- GitHub: [@francisuloko](https://github.com/francisuloko)
-- Twitter: [@francisuloko](https://twitter.com/francisuloko)
-- LinkedIn: [@francisuloko](https://linkedin.com/in/francisuloko)
+- [GitHub](https://github.com/francisuloko)
+- [Twitter](https://twitter.com/francisuloko)
+- [LinkedIn](https://linkedin.com/in/francisuloko)
 
 
 ## 🤝 Contributing
