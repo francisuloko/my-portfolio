@@ -6,6 +6,9 @@
 
 ![screenshot](./img/portfolioscreenshot.png)
 
+## Live Demo
+
+[Go to my portfolio](https://francisuloko.github.io/my-portfolio/)
 
 ## Language
 
@@ -36,10 +39,6 @@
 - Bootstrap v5.0
 - git and github
 - bootstrap icons
-
-## Live Demo
-
-[Go to my portfolio](https://francisuloko.github.io/my-portfolio/)
 
 
 ## Clone Repo
