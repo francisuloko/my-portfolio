@@ -1,12 +1,12 @@
 # My Software Development Portfolio
 
-> I am a Full Stack Developer, check out my porfolio!
+> I'm a Full Stack Developer, check out my porfolio!
 
 ## Screenshots
 
 ![screenshot](./img/portfolioscreenshot.png)
 
-## Live Demo
+## Live Site
 
 [Go to my portfolio](https://francisuloko.github.io/my-portfolio/)
 
