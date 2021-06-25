@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .z-10 {
-    z-index: 10
+  z-index: 10
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
 }
 
 #overlay {
