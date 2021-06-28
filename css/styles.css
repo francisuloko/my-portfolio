@@ -1,55 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .z-10 {
-  z-index: 10
+  z-index: 10;
 }
 
 .title {
-    font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 .overlay {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 20px;
 }
 
 .bg-black {
-    background-color: #000;
+  background-color: #000;
 }
 
 .banner {
-    position: relative;
-    background-blend-mode: screen;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+  position: relative;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
 }
 
 .vector {
-  background: linear-gradient(257.1deg, #ae35eb 27.51%, #4052F0 113.53%);
+  background: linear-gradient(257.1deg, #ae35eb 27.51%, #4052f0 113.53%);
   background-blend-mode: screen;
   width: 100%;
 }
 
 .form-control {
-    border: 0;
-    outline: 0;
-    border-bottom: 1px solid #aaa;
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 0;
-    padding: 10px;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #aaa;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0;
+  padding: 10px;
 }
 
 .form-control::placeholder {
-    color: #aaa;
-    font-size: 1.5em;
+  color: #aaa;
+  font-size: 1.5em;
 }
 
 .intro {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
