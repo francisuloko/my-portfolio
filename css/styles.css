@@ -12,7 +12,7 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-#overlay {
+.overlay {
   background-color: rgba(0,0,0,0.9);
   padding: 20px;
 }

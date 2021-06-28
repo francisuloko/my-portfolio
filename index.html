@@ -49,7 +49,7 @@
             </li>
           </ul>
       </aside>
-      <section class="w-100">
+      <div class="w-100">
         <header class="p-4 bg-black text-white  z-10" id='header'>
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <div class='d-none d-lg-block'>
@@ -76,9 +76,9 @@
         </header>
         <!-- HERO SECTION -->
         <section class="m-auto text-white bg-dark text-center text-lg-start banner" style="background-image: url('./img/herobg.jpg');">
-          <div class="p-3" id="overlay">
+          <div class="p-3 overlay">
             <div class="" id='text'>
-              <h1 class="title display-3">Francis Uloko</h1>
+              <h2 class="title display-3">Francis Uloko</h2>
               <h2 class="fs-6 fst-italic"> ~ Full Stack Developer ~</h2>
               <div class="container">
                 <div class="row">
@@ -106,22 +106,23 @@
 
         <!-- PROJECTS SECTION -->
         <section class="p-3 mt-3 pb-0" id="projects">        
-          <h2 class="pb-2 border-bottom title display-4">My Projects</h2>
+          <h2 class="pb-2 border-bottom title display-6">My Projects</h2>
           <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+
             <div class="col">
               <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('./img/twitter_PNG1.png'); background-size: contain; background-repeat: no-repeat;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                   <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold titl">Twitter Redesign</h2>
                   <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                    <div class="d-flex">
-                    <li class="me-auto">
-                      <img src="./img/svg/rails.svg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    <li class="d-flex">
+                      <div class="me-auto">
+                        <img src="./img/svg/rails.svg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </div>
+                      <div class="d-flex align-items-center me-3">
+                        <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Rails Capstone</small>
+                      </div>
                     </li>
-                    <li class="d-flex align-items-center me-3">
-                      <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                      <small>Rails Capstone</small>
-                    </li>
-                    </div>
                     <li class="d-flex align-items-center">
                       <!-- Button -->
                       <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal1">
@@ -129,11 +130,11 @@
                       </button>
                       
                       <!-- Modal -->
-                      <div class="modal fade text-dark" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade text-dark" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title text-dark" id="exampleModalLabel">Twitter Redesign Capstone</h5>
+                              <h5 class="modal-title text-dark" id="exampleModalLabel1">Twitter Redesign Capstone</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -158,7 +159,6 @@
                                   <li>Deploy apps heroku</li>
                                   <li>Translate business requirements into software solutions</li>
                                 </ul>
-                              </p>
                             </div>
                             <div class="modal-footer">
                               <a href="https://github.com/francisuloko/twitter-redesign-capstone" class="btn btn-primary">Code</a>
@@ -178,15 +178,15 @@
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                   <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Telegram Bot</h2>
                   <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                    <div class="d-flex">
-                    <li class="me-0">
-                      <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    <li class="d-flex">
+                      <div class="me-0">
+                        <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </div>
+                      <div class="d-flex align-items-center me-2">
+                        <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Ruby Capstone</small>
+                      </div>
                     </li>
-                    <li class="d-flex align-items-center me-2">
-                      <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                      <small>Ruby Capstone</small>
-                    </li>
-                  </div>
                   <li class="d-flex align-items-center">
                     <!-- Button -->
                     <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal2">
@@ -194,11 +194,11 @@
                     </button>
                     
                     <!-- Modal -->
-                    <div class="modal fade text-dark" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade text-dark" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2" aria-hidden="true">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title text-dark" id="exampleModalLabel">Telegram Bot Paddy</h5>
+                            <h5 class="modal-title text-dark" id="“exampleModalLabel">Telegram Bot Paddy</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
@@ -227,15 +227,15 @@
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                   <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">TicTacToe</h2>
                   <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                    <div class="d-flex">
-                      <li class="">
+                    <li class="d-flex">
+                      <div class="me-0">
                         <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
+                      </div>
+                      <div class="d-flex align-items-center me-3">
                         <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
                         <small>Ruby</small>
-                      </li>
-                    </div>              
+                      </div>
+                    </li>              
                     <li class="d-flex align-items-center">
                       <!-- Button -->
                       <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal3">
@@ -243,11 +243,11 @@
                       </button>
                       
                       <!-- Modal -->
-                      <div class="modal fade text-dark" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade text-dark" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title text-dark" id="exampleModalLabel">Tic Tac Toe</h5>
+                              <h5 class="modal-title text-dark" id="exampleModalLabel3">Tic Tac Toe</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -276,15 +276,15 @@
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                   <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Hotels Directory</h2>
                   <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                    <div class="d-flex">
-                    <li class="me-0">
-                      <img src="./img/html5.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    <li class="d-flex">
+                      <div class="me-0">
+                        <img src="./img/html5.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </div>
+                      <div class="d-flex align-items-center me-2">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>HTML/CSS Capstone</small>
+                      </div>
                     </li>
-                    <li class="d-flex align-items-center me-2">
-                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                      <small>HTML/CSS Capstone</small>
-                    </li>
-                    </div>
                     <li class="d-flex align-items-center">
                       <!-- Button -->
                       <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal4">
@@ -292,11 +292,11 @@
                       </button>
                       
                       <!-- Modal -->
-                      <div class="modal fade text-dark" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade text-dark" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title text-dark" id="exampleModalLabel">Hotels Directory</h5>
+                              <h5 class="modal-title text-dark" id="exampleModalLabel4">Hotels Directory</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -323,15 +323,15 @@
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                   <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Newsweek</h2>
                   <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                    <div class="d-flex">
-                    <li class="me-0">
-                      <img src="./img/bootstrap.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    <li class="d-flex">
+                      <div class="me-0">
+                        <img src="./img/bootstrap.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </div>
+                      <div class="d-flex align-items-center me-2">
+                        <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Bootstrap</small>
+                      </div>
                     </li>
-                    <li class="d-flex align-items-center me-2">
-                      <svg class="bi me-0" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                      <small>Bootstrap</small>
-                    </li>
-                    </div>
                     <li class="d-flex align-items-center">
                       <!-- Button -->
                       <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal5">
@@ -339,11 +339,11 @@
                       </button>
                       
                       <!-- Modal -->
-                      <div class="modal fade text-dark" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade text-dark" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title text-dark" id="exampleModalLabel">Newsweek</h5>
+                              <h5 class="modal-title text-dark" id="exampleModalLabel5">Newsweek</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -413,7 +413,7 @@
 
         <!-- ABOUT ME -->
         <section class="p-4 pt-3 mt-3" id='about'>
-            <h2 class="pb-2 border-bottom title display-4">About Me</h2>
+            <h2 class="pb-2 border-bottom title display-6">About Me</h2>
             <p class="col-md-10 fs-5 mt-4">
               I have been a web developer since 2019. In February 2021, I joined the Microverse Software Development bootcamp which requires over 1000+ hours to master the top tools and technologies used in the industry while building real world projects. In my time, I learnt remote work, pair-programming, mentoring and a bunch of other soft skills.
             </p>
@@ -427,14 +427,14 @@
 
         <!-- CONTACT ME FORM -->
         <section class="bg-black text-white banner" id="contact"  style="background-image: url('./img/herobg.jpg');">
-          <div class="p-3 py-5" id="overlay">
+          <div class="p-3 py-5 overlay">
             <div class="">
                 <div class="row mb-3">
                     <div class="md-block col-md-3 align-self-start m-0 p-2">
                         <img class="w-100 d-none d-md-block rounded-circle"  src="./img/profile-photo.jpeg" alt="profile photo">
                     </div>
                     <div class="col-sm-12 col-md-9 justify-content-between align-self-start m-0 px-4">
-                        <h2 class="my-0 title display-4">Get in touch</h2>
+                        <h2 class="my-0 title display-6">Get in touch</h2>
                         <p class="my-3 col-sm-12 col-md-10 fs-4">
                           If you have an application you are interested in developing, a feature that you need built or a project that needs coding, I'll love to hear from you.
                         </p>
@@ -459,7 +459,7 @@
             </div>
           </div>
         </section>
-      </section>
+      </div>
   </main>
 
   <footer class="p-2 bg-black text-white d-flex justify-content-between align-items-center">
