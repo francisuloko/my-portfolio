@@ -4,7 +4,7 @@
 
 ## Screenshots
 
-![screenshot](./img/portfolioscreenshot.png)
+![screenshot](./img/linkpreview.png)
 
 ## Live Site
 
