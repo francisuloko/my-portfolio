@@ -35,10 +35,10 @@
 
 ## Built With
 
-- HTML and CSS
+- HTML/CSS
 - Bootstrap v5.0
-- git and github
-- bootstrap icons
+- Git and Github
+- Formspree
 
 
 ## Clone Repo
