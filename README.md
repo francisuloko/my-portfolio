@@ -8,7 +8,7 @@
 
 ## Live Site
 
-[Go to my portfolio](https://francisuloko.github.io/my-portfolio/)
+[Go to my portfolio](francisuloko.com)
 
 ## Language
 
