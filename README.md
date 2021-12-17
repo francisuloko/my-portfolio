@@ -8,7 +8,7 @@
 
 ## Live Site
 
-[Go to my portfolio](francisuloko.com)
+[Go to my portfolio](http://francisuloko.com)
 
 ## Language
 
