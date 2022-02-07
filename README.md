@@ -10,29 +10,6 @@
 
 [Go to my portfolio](http://francisuloko.com)
 
-## Language
-
-- JavaScript
-- Ruby
-- Python
-- HMTL
-- CSS
-
-## Framework
-
-- Ruby on Rails
-- Bootstrap
-- Sass
-- Rspec
-
-## Skills
-
-- Pair Programming
-- Remote Work
-- Mentoring
-- Linux
-
-
 ## Built With
 
 - HTML/CSS
