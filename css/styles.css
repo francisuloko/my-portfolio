@@ -60,8 +60,8 @@ body {
 
 .icons img,
 .dev-icon {
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
 }
 
 @keyframes FadeIn {
@@ -81,9 +81,9 @@ body {
 }
 
 .icons img {
-  animation: FadeIn 1s linear;
+  animation: FadeIn 10s linear infinite;
   animation-fill-mode: both;
 }
 
 .icons img:nth-child(odd) { animation-delay: 0.5s; }
-.icons img:nth-child(even) { animation-delay: 0.4s; }
+.icons img:nth-child(even) { animation-delay: 0.5s; }
