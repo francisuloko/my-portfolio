@@ -1,623 +1,939 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta property="og:title" content="Francis Uloko | Full Stack Developer" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://francisuloko.github.io/my-portfolio/" />
-    <meta prefix="og: http://ogp.me/ns#" property="og:image"
-        content="https://francisuloko.github.io/my-portfolio/img/linkpreview.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <meta
+      property="og:url"
+      content="https://francisuloko.github.io/my-portfolio/"
+    />
+    <meta
+      prefix="og: http://ogp.me/ns#"
+      property="og:image"
+      content="https://francisuloko.github.io/my-portfolio/img/linkpreview.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Francis Uloko | Full Stack Developer</title>
-    <link rel="shortcut icon" type="image/jpg" href="my-favicon.png">
-</head>
+    <link rel="shortcut icon" type="image/jpg" href="my-favicon.png" />
+  </head>
 
-<body>
+  <body>
     <main class="d-flex p-10">
-        <aside class="d-flex flex-column flex-shrink-0 p-3 bg-light d-none d-lg-block">
-            <a href="https://www.github.com/francisuloko"
-                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none p-0">
-                <img class="rounded-circle me-2" style="width: 45px; height: auto;" src="./img/profile-photo.jpeg"
-                    alt="profile photo"> Francis Uloko
+      <aside
+        class="d-flex flex-column flex-shrink-0 p-3 bg-light d-none d-lg-block"
+      >
+        <a
+          href="https://www.github.com/francisuloko"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none p-0"
+        >
+          <img
+            class="rounded-circle me-2"
+            style="width: 45px; height: auto"
+            src="./img/profile-photo.jpeg"
+            alt="profile photo"
+          />
+          Francis Uloko
+        </a>
+        <hr />
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a
+              href="https://www.github.com/francisuloko"
+              class="nav-link link-dark"
+              aria-current="page"
+            >
+              <i class="bi bi-github me-3"></i> Github
             </a>
-            <hr>
-            <ul class="nav nav-pills flex-column mb-auto">
-                <li class="nav-item">
-                    <a href="https://www.github.com/francisuloko" class="nav-link link-dark" aria-current="page">
-                        <i class="bi bi-github me-3"></i> Github
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/francisuloko/" class="nav-link link-dark">
-                        <i class="bi bi-linkedin me-3"></i> LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/francisuloko" class="nav-link link-dark">
-                        <i class="bi bi-twitter me-3"></i> Twitter
-                    </a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link link-dark">
-                        <i class="bi bi-person-lines-fill me-3"></i> Contact Me
-                    </a>
-                </li>
-            </ul>
-        </aside>
-        <div class="w-100">
-            <header class="py-3 bg-black text-white z-10" id='header'>
-                <nav class="navbar navbar-expand-lg p-0">
-                    <div class="container-fluid">
-                        <a href="https://www.github.com/francisuloko"
-                            class="d-flex align-items-center m-0 p-0 link-dark text-decoration-none text-white">
-                            <img class="rounded-circle me-2 d-lg-none" style="width: 45px; height: auto;"
-                                src="./img/profile-photo.jpeg" alt="profile photo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <i class="bi bi-list text-muted display-4 p-0 m-0"></i>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/francisuloko/"
+              class="nav-link link-dark"
+            >
+              <i class="bi bi-linkedin me-3"></i> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/francisuloko"
+              class="nav-link link-dark"
+            >
+              <i class="bi bi-twitter me-3"></i> Twitter
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link link-dark">
+              <i class="bi bi-person-lines-fill me-3"></i> Contact Me
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="w-100">
+        <header class="py-3 bg-black text-white z-10" id="header">
+          <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+              <a
+                href="https://www.github.com/francisuloko"
+                class="d-flex align-items-center m-0 p-0 link-dark text-decoration-none text-white"
+              >
+                <img
+                  class="rounded-circle me-2 d-lg-none"
+                  style="width: 45px; height: auto"
+                  src="./img/profile-photo.jpeg"
+                  alt="profile photo"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="bi bi-list text-muted display-4 p-0 m-0"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav title fs-4">
+                  <li class="nav-item">
+                    <a href="#about" class="nav-link px-2 text-white">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#projects" class="nav-link px-2 text-white"
+                      >Projects</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#skills" class="nav-link px-2 text-white"
+                      >Skills</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contact" class="nav-link px-2 text-white"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- HERO SECTION -->
+        <section
+          class="m-auto text-white bg-dark text-center text-lg-start banner"
+          style="background-image: url('./img/herobg.jpg')"
+        >
+          <div class="p-3 overlay">
+            <div class="" id="text">
+              <h2 class="title display-3">Francis Uloko</h2>
+              <h2 class="fs-6 fst-italic">~ Full Stack Developer ~</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-8 px-0">
+                    <p class="mb-4 intro">
+                      I am a self-driven and collaborative software developer; I
+                      have built and collaborated on various projects with
+                      developers from around the world; I write clean and
+                      reusable code with elegant user interfaces and I
+                      communicate effectively in a cross-cultural or agile
+                      setting. Want to work with me? Check out my list of
+                      projects.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between py-2 px-4 bg-white rounded-pill"
+                    >
+                      <span class="text-dark">Connect:</span>
+                      <div class="d-flex justify-content-evenly">
+                        <a
+                          class="me-2 text-dark"
+                          href="https://www.github.com/francisuloko"
+                          ><i class="bi bi-github"></i
+                        ></a>
+                        <a
+                          class="me-2 text-dark"
+                          href="https://www.linkedin.com/in/francisuloko/"
+                          ><i class="bi bi-linkedin"></i
+                        ></a>
+                        <a
+                          class="me-2 text-dark"
+                          href="https://www.twitter.com/francisuloko"
+                          ><i class="bi bi-twitter"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="p-3 mt-3 pb-0" id="projects">
+          <h2 class="pb-2 border-bottom title display-6">My Projects</h2>
+          <div
+            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3"
+          >
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                style="
+                  background-image: url('./img/twitter_PNG1.png');
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                "
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold titl">
+                    Twitter Redesign
+                  </h2>
+                  <ul
+                    class="d-flex justify-content-between align-items-center list-unstyled mt-auto"
+                  >
+                    <li class="d-flex">
+                      <div class="me-auto">
+                        <img
+                          src="./img/svg/rails.svg"
+                          alt="Bootstrap"
+                          width="32"
+                          height="32"
+                          class="rounded-circle border border-white"
+                        />
+                      </div>
+                      <div class="d-flex align-items-center me-3">
+                        <svg class="bi me-0" width="1em" height="1em">
+                          <use xlink:href="#geo-fill"></use>
+                        </svg>
+                        <small>Ruby on Rails</small>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button
+                        type="button"
+                        class="btn text-white"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1"
+                      >
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+
+                      <!-- Modal -->
+                      <div
+                        class="modal fade text-dark"
+                        id="exampleModal1"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel1"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5
+                                class="modal-title text-dark"
+                                id="exampleModalLabel1"
+                              >
+                                Twitter Redesign Capstone
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                class="w-100"
+                                src="./img/screenshot.png"
+                                alt=""
+                              />
+                              <p class="p-3">
+                                This project demonstrates my overall
+                                understanding of Ruby on Rails. In building this
+                                project, I have:
+                              </p>
+
+                              <ul>
+                                <li>Use MVC architectural pattern</li>
+                                <li>Configure RESTFUL routes</li>
+                                <li>
+                                  Use controllers to intercept user requests
+                                </li>
+                                <li>
+                                  Use view templates for HTML with embedded data
+                                </li>
+                                <li>Connect Database to app using postgres</li>
+                                <li>Use Active Record as ORM</li>
+                                <li>
+                                  Use Active Record associations to model real
+                                  life system (based on Database schema)
+                                </li>
+                                <li>
+                                  Use Active Record queries to translate app
+                                  requirements to SQL queries
+                                </li>
+                                <li>Use ActiveRecord validations</li>
+                                <li>
+                                  Pass user input from view through controller
+                                  to model in a safe way
+                                </li>
+                                <li>
+                                  Remember about thin controllers and
+                                  distinction between logic and presentation
+                                  tiers
+                                </li>
+                                <li>Avoid n+1 queries problem</li>
+                                <li>Use unit tests (Rspec)</li>
+                                <li>Use ActiveRecord validations</li>
+                                <li>Deploy apps heroku</li>
+                                <li>
+                                  Translate business requirements into software
+                                  solutions
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <a
+                                href="https://github.com/francisuloko/twitter-redesign-capstone"
+                                class="btn btn-primary"
+                                >Github</a
+                              >
+                              <a
+                                href="https://twitter-redesign-capstone.herokuapp.com/"
+                                class="btn btn-primary"
+                                >Preview</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                style="
+                  background-image: url('./img/1c39c81fccba10c48869ce903c533845.png');
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                "
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Telegram Bot</h2>
+                  <ul
+                    class="d-flex justify-content-between align-items-center list-unstyled mt-auto"
+                  >
+                    <li class="d-flex">
+                      <div class="me-0">
+                        <img
+                          src="./img/rubylogo.png"
+                          alt="Bootstrap"
+                          width="32"
+                          height="32"
+                          class="rounded-circle border border-white"
+                        />
+                      </div>
+                      <div class="d-flex align-items-center me-2">
+                        <svg class="bi me-0" width="1em" height="1em">
+                          <use xlink:href="#geo-fill"></use>
+                        </svg>
+                        <small>Ruby</small>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button
+                        type="button"
+                        class="btn text-white"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2"
+                      >
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+
+                      <!-- Modal -->
+                      <div
+                        class="modal fade text-dark"
+                        id="exampleModal2"
+                        tabindex="-1"
+                        aria-labelledby="exampleModal2"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5
+                                class="modal-title text-dark"
+                                id="“exampleModalLabel"
+                              >
+                                Telegram Bot Paddy
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class="w-100" src="./img/paddy.jpg" alt="" />
+                              <p class="p-2">
+                                This is a solo project to build a bot by putting
+                                into practice the concepts of Object Oriented
+                                Programming (OOP) learned in Ruby Module. I have
+                                demonstrated the use of classes (and Module) in
+                                Ruby and how to access their properties and
+                                methods. Here is a brief description of my bot.
+                              </p>
+                              <p class="p-2">
+                                Paddy (@PaddyMyBot) is a bot built using
+                                telegram bot API. It has the ability to scrape
+                                news channels and display the latest news
+                                headlines in the user's chat. The idea behind
+                                this project is to enable fast paced individuals
+                                to be on the know by looking at news headlines.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <a
+                                href="https://github.com/francisuloko/telegram-bot"
+                                class="btn btn-primary"
+                                >Github</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                style="
+                  background-image: url('./img/wwcs.webp');
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                "
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">White Word Cell</h2>
+                  <ul
+                    class="d-flex justify-content-between align-items-center list-unstyled mt-auto"
+                  >
+                    <li class="d-flex">
+                      <div class="d-flex align-items-center me-3">
+                        <img class="fs-2 me-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                        <small>React</small>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button
+                        type="button"
+                        class="btn text-white"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3"
+                      >
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+
+                      <!-- Modal -->
+                      <div
+                        class="modal fade text-dark"
+                        id="exampleModal3"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel3"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5
+                                class="modal-title text-dark"
+                                id="exampleModalLabel3"
+                              >
+                                White Word Store
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                class="w-100"
+                                src="./img/tictactoe_livedemo.gif"
+                                alt=""
+                              />
+                              <p class="p-2">
+                                White Word Cells lets you save words with custom
+                                descriptions. You can store personal
+                                affirmations or motivations, confidence boosters
+                                or reframe words with bad vibes. It is modelled
+                                after the white blood cells to help you fight
+                                negative thoughts.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <a
+                                href="https://github.com/francisuloko/white-word-cells-frontend"
+                                class="btn btn-primary"
+                                >Github</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                style="
+                  background-image: url('./img/hotel1.jpeg');
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                "
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Hotels Directory</h2>
+                  <ul
+                    class="d-flex justify-content-between align-items-center list-unstyled mt-auto"
+                  >
+                    <li class="d-flex">
+                      <div class="me-0">
+                        <img
+                          src="./img/html5.png"
+                          alt="Bootstrap"
+                          width="32"
+                          height="32"
+                          class="rounded-circle border border-white"
+                        />
+                      </div>
+                      <div class="d-flex align-items-center me-2">
+                        <svg class="bi me-2" width="1em" height="1em">
+                          <use xlink:href="#geo-fill"></use>
+                        </svg>
+                        <small>HTML5 & CSS3</small>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button
+                        type="button"
+                        class="btn text-white"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal4"
+                      >
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+
+                      <!-- Modal -->
+                      <div
+                        class="modal fade text-dark"
+                        id="exampleModal4"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel4"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5
+                                class="modal-title text-dark"
+                                id="exampleModalLabel4"
+                              >
+                                Hotels Directory
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                class="w-100"
+                                src="./img/twosteps.jpeg"
+                                alt=""
+                              />
+                              <p class="p-3">
+                                This project involves building a responsive,
+                                mobile first, Hotel directory called TwoSteps.
+                                This hotel directory enables a user to find
+                                hotels around the world. The web app displays
+                                the details of a registered hotel in two simple
+                                steps by 1.) entering a search criteria and 2.)
+                                selecting a hotel from the list of search
+                                results. The name of the app is derived from the
+                                number of actions (two steps) required to land
+                                on a hotel's page.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <a
+                                href="https://github.com/francisuloko/html-css-capstone-proj"
+                                class="btn btn-primary"
+                                >Github</a
+                              >
+                              <a
+                                href="https://francisuloko.github.io/html-css-capstone-proj/"
+                                class="btn btn-primary"
+                                >Preview</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                style="
+                  background-image: url('./img/pexels-valeria-boltneva.jpg');
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                "
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Meals DB API</h2>
+                  <ul
+                    class="d-flex justify-content-between align-items-center list-unstyled mt-auto"
+                  >
+                    <li class="d-flex">
+                      <div class="d-flex align-items-center me-2">
+                        <svg class="bi me-0" width="1em" height="1em">
+                          <use xlink:href="#geo-fill"></use>
+                        </svg>
+                        <i class="devicon-javascript-plain colored fs-2 me-2"></i>
+                        <small>JavaScript</small>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <!-- Button -->
+                      <button
+                        type="button"
+                        class="btn text-white"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal6"
+                      >
+                        <i class="bi bi-arrows-fullscreen"></i>
+                      </button>
+
+                      <!-- Modal -->
+                      <div
+                        class="modal fade text-dark"
+                        id="exampleModal6"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel5"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5
+                                class="modal-title text-dark"
+                                id="exampleModalLabel5"
+                              >
+                                Meals DB API
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                class="w-100"
+                                src="./img/mealsDB-screenshot.png"
+                                alt=""
+                              />
+                              <p class="p-2">
+                                This is a collaborative capstone project where
+                                the team is tasked to build a web app that
+                                displays list of food items form The Meals DB
+                                API and create and display User reactions such
+                                Like and Comment using Microverse Involvement
+                                API. In this project, we have:
+                              </p>
+                              <ul>
+                                <li>
+                                  Used JavaScript to make websites dynamic and
+                                  build basic single page apps.
+                                </li>
+                                <li>Used ES6 syntax.</li>
+                                <li>Used ES6 modules.</li>
+                                <li>Used callbacks and promises.</li>
+                                <li>Used webpack.</li>
+                                <li>
+                                  Applied JavaScript best practices and language
+                                  style guides in code.
+                                </li>
+                                <li>Used AAA pattern for unit tests.</li>
+                                <li>Wrote units tests for a JavaScript app.</li>
+                                <li>Follow Gitflow.</li>
+                                <li>Solved simple git conflicts.</li>
+                                <li>Sent and receive data from an API.</li>
+                                <li>Used API documentation.</li>
+                                <li>Understood and Used JSON.</li>
+                                <li>Made JavaScript code synchronous.</li>
+                                <li>
+                                  Performed a code review for a team member.
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <a
+                                href="https://github.com/francisuloko/javascript-capstone"
+                                class="btn btn-primary"
+                                >Github</a
+                              >
+                              <a
+                                href="https://francisuloko.github.io/javascript-capstone/dist/"
+                                class="btn btn-primary"
+                                >Preview</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="p-3 bg-light rounded m-3 mt-4" id="skills">
+          <div class="row g-4 row-cols-1 row-cols-md-4">
+            <div class="col d-flex align-items-start">
+              <div>
+                <h2>Front-End</h2>
+                <div class="d-flex flex-column">
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Redux</span>
+                  <span>HMTL5 & CSS3</span>
+                  <span>Bootstrap</span>
+                  <span>Sass</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+              <div>
+                <h2>Back-End</h2>
+                <div class="d-flex flex-column">
+                  <span>Ruby</span>
+                  <span>Rails</span>
+                  <span>MySQL</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+              <div>
+                <h2>Tools &<br />Methods</h2>
+                <div class="d-flex flex-column">
+                  <span>Git & Github</span>
+                  <span>Heroku & Netlify</span>
+                  <span>Responsive Design</span>
+                  <span>TDD & Rspec</span>
+                  <span>Linux</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+              <div>
+                <h2>Professional</h2>
+                <div class="d-flex flex-column">
+                  <span>Remote Work</span>
+                  <span>Pair Programming</span>
+                  <span>Mentoring</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ABOUT ME -->
+        <section class="p-4 pt-3 mt-3" id="about">
+          <h2 class="pb-2 border-bottom title display-6">About Me</h2>
+          <p class="col-md-10 fs-5 mt-4 lh-10">
+            I have been a web developer since 2019.<br />
+            In February 2021, I joined the Microverse Software Development
+            bootcamp<br />
+            which requires over 1000+ hours to master the industry's top tools
+            and technologies<br />
+            while building real world projects.<br />
+            In my time, I learnt remote work, pair-programming, mentoring and a
+            bunch of other soft skills.<br />
+          </p>
+          <p class="col-md-10 fs-5">
+            In my spare time, I listen to music and meditate,<br />
+            and I'm always open for a game of Chess.<br />
+            I look forward to learning about the Internet of Things (IoT) and
+            Smart Packaging.<br />
+          </p>
+
+          <a
+            href="https://docs.google.com/document/d/1qZgEhlC8QnalI_qQ2FVxiwqL3OCWPe24EKpisR7_K_4/edit?usp=sharing"
+            class="btn btn-primary fs-5 my-3 py-2 px-3"
+            download
+          >
+            Get My Resume
+          </a>
+        </section>
+        <!-- CONTACT ME FORM -->
+        <section
+          class="bg-black text-white banner"
+          id="contact"
+          style="background-image: url('./img/herobg.jpg')"
+        >
+          <div class="p-3 py-5 overlay">
+            <div class="">
+              <div class="row mb-3">
+                <div
+                  class="col-sm-12 col-md-9 justify-content-between align-self-start m-0 px-4"
+                >
+                  <h2 class="my-0 title display-6">Get in touch</h2>
+                  <p class="my-3 col-sm-12 col-md-10 fs-4">
+                    If you have an application you are interested in developing,
+                    a feature that you need built or a project that needs
+                    coding, I'll love to hear from you.
+                  </p>
+                  <form action="https://formspree.io/f/xeqvzakr" method="POST">
+                    <div class="row g-3">
+                      <div class="col-sm-12 col-lg-6">
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          class="form-control"
+                          placeholder="Name"
+                          aria-label="First name"
+                        />
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          placeholder="Email*"
+                          aria-label="Email"
+                          required
+                        />
+                      </div>
+                      <div class="col-12 mt-3">
+                        <textarea
+                          class="form-control pt-0 mt-0"
+                          name="message"
+                          id="message"
+                          rows="8"
+                          placeholder="Message*"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="col-12 mt-0">
+                        <button
+                          type="submit"
+                          class="btn btn-primary fs-5 my-3 py-2 px-4"
+                        >
+                          Send
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav title fs-4">
-                                <li class="nav-item">
-                                    <a href="#about" class="nav-link px-2 text-white">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#projects" class="nav-link px-2 text-white">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#skills" class="nav-link px-2 text-white">Skills</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#contact" class="nav-link px-2 text-white">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+                      </div>
                     </div>
-                </nav>
-            </header>
-            <!-- HERO SECTION -->
-            <section class="m-auto text-white bg-dark text-center text-lg-start banner"
-                style="background-image: url('./img/herobg.jpg');">
-                <div class="p-3 overlay">
-                    <div class="" id='text'>
-                        <h2 class="title display-3">Francis Uloko</h2>
-                        <h2 class="fs-6 fst-italic"> ~ Full Stack Developer ~</h2>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 col-lg-8 px-0">
-                                    <p class="mb-4 intro">Product development involves employing the right tools and
-                                        technologies that will satisfy product specifications and constraints to bring
-                                        an MVP to the market. As Software Developers, we play a vital role in this
-                                        process.
-                                        Let me help you quickly build your web-app with industry top tools and
-                                        technologies.
-                                    </p>
-                                    <div class="d-flex justify-content-between py-2 px-4 bg-white rounded-pill">
-                                        <span class="text-dark">Connect:</span>
-                                        <div class="d-flex justify-content-evenly">
-                                            <a class="me-2 text-dark" href="https://www.github.com/francisuloko"><i
-                                                    class="bi bi-github"></i></a>
-                                            <a class="me-2 text-dark"
-                                                href="https://www.linkedin.com/in/francisuloko/"><i
-                                                    class="bi bi-linkedin"></i></a>
-                                            <a class="me-2 text-dark" href="https://www.twitter.com/francisuloko"><i
-                                                    class="bi bi-twitter"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </form>
                 </div>
-            </section>
-
-            <!-- PROJECTS SECTION -->
-            <section class="p-3 mt-3 pb-0" id="projects">
-                <h2 class="pb-2 border-bottom title display-6">My Projects</h2>
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
-
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                            style="background-image: url('./img/twitter_PNG1.png'); background-size: contain; background-repeat: no-repeat;">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold titl">Twitter Redesign</h2>
-                                <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                                    <li class="d-flex">
-                                        <div class="me-auto">
-                                            <img src="./img/svg/rails.svg" alt="Bootstrap" width="32" height="32"
-                                                class="rounded-circle border border-white">
-                                        </div>
-                                        <div class="d-flex align-items-center me-3">
-                                            <svg class="bi me-0" width="1em" height="1em">
-                                                <use xlink:href="#geo-fill"></use>
-                                            </svg>
-                                            <small>Ruby on Rails</small>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <!-- Button -->
-                                        <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal1">
-                                            <i class="bi bi-arrows-fullscreen"></i>
-                                        </button>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade text-dark" id="exampleModal1" tabindex="-1"
-                                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title text-dark" id="exampleModalLabel1">
-                                                            Twitter Redesign Capstone</h5>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                            aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img class='w-100' src="./img/screenshot.png" alt="">
-                                                        <p class="p-3">
-                                                            This project demonstrates my overall understanding of Ruby
-                                                            on Rails. In building this project, I have:
-                                                        <ul>
-                                                            <li>Use MVC architectural pattern</li>
-                                                            <li>Configure RESTFUL routes</li>
-                                                            <li>Use controllers to intercept user requests</li>
-                                                            <li>Use view templates for HTML with embedded data</li>
-                                                            <li>Connect Database to app using postgres</li>
-                                                            <li>Use Active Record as ORM</li>
-                                                            <li>Use Active Record associations to model real life system
-                                                                (based on Database schema)</li>
-                                                            <li>Use Active Record queries to translate app requirements
-                                                                to SQL queries</li>
-                                                            <li>Use ActiveRecord validations</li>
-                                                            <li>Pass user input from view through controller to model in
-                                                                a safe way</li>
-                                                            <li>Remember about thin controllers and distinction between
-                                                                logic and presentation tiers</li>
-                                                            <li>Avoid n+1 queries problem</li>
-                                                            <li>Use unit tests (Rspec)</li>
-                                                            <li>Use ActiveRecord validations</li>
-                                                            <li>Deploy apps heroku</li>
-                                                            <li>Translate business requirements into software solutions
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <a href="https://github.com/francisuloko/twitter-redesign-capstone"
-                                                            class="btn btn-primary">Code</a>
-                                                        <a href="https://twitter-redesign-capstone.herokuapp.com/"
-                                                            class="btn btn-primary">Preview</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                            style="background-image: url('./img/1c39c81fccba10c48869ce903c533845.png'); background-size: 100% 100%; background-repeat: no-repeat;">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Telegram Bot</h2>
-                                <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                                    <li class="d-flex">
-                                        <div class="me-0">
-                                            <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32"
-                                                class="rounded-circle border border-white">
-                                        </div>
-                                        <div class="d-flex align-items-center me-2">
-                                            <svg class="bi me-0" width="1em" height="1em">
-                                                <use xlink:href="#geo-fill"></use>
-                                            </svg>
-                                            <small>Ruby</small>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <!-- Button -->
-                                        <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal2">
-                                            <i class="bi bi-arrows-fullscreen"></i>
-                                        </button>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade text-dark" id="exampleModal2" tabindex="-1"
-                                            aria-labelledby="exampleModal2" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title text-dark" id="“exampleModalLabel">
-                                                            Telegram Bot Paddy</h5>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                            aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img class='w-100' src="./img/paddy.jpg" alt="">
-                                                        <p class="p-2">
-                                                            This is a solo project to build a bot by putting into
-                                                            practice the concepts of Object Oriented Programming (OOP)
-                                                            learned in Ruby Module. I have demonstrated the use of
-                                                            classes (and Module) in Ruby and how to access their
-                                                            properties and methods. Here is
-                                                            a brief description of my bot.
-                                                        </p>
-                                                        <p class="p-2">
-                                                            Paddy (@PaddyMyBot) is a bot built using telegram bot API.
-                                                            It has the ability to scrape news channels and display the
-                                                            latest news headlines in the user's chat. The idea behind
-                                                            this project is to enable fast paced individuals to be on
-                                                            the know by looking
-                                                            at news headlines.
-                                                        </p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <a href="https://github.com/francisuloko/telegram-bot"
-                                                            class="btn btn-primary">Code</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                            style="background-image: url('./img/tictactoe.png'); background-size: 100% 100%; background-repeat: no-repeat;">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">TicTacToe</h2>
-                                <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                                    <li class="d-flex">
-                                        <div class="me-0">
-                                            <img src="./img/rubylogo.png" alt="Bootstrap" width="32" height="32"
-                                                class="rounded-circle border border-white">
-                                        </div>
-                                        <div class="d-flex align-items-center me-3">
-                                            <svg class="bi me-0" width="1em" height="1em">
-                                                <use xlink:href="#geo-fill"></use>
-                                            </svg>
-                                            <small>Ruby</small>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <!-- Button -->
-                                        <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal3">
-                                            <i class="bi bi-arrows-fullscreen"></i>
-                                        </button>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade text-dark" id="exampleModal3" tabindex="-1"
-                                            aria-labelledby="exampleModalLabel3" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title text-dark" id="exampleModalLabel3">Tic
-                                                            Tac Toe</h5>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                            aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img class='w-100' src="./img/tictactoe_livedemo.gif" alt="">
-                                                        <p class="p-2">
-                                                            This is a colloborative project to build a game of TicTacToe
-                                                            putting into practice the concepts of Object Oriented
-                                                            Programming (OOP). We have demonstrated the use of classes
-                                                            in Ruby and how to access their properties and methods. Here
-                                                            is a brief description
-                                                            of TicTacToe.
-                                                        </p>
-                                                        <p class="p-2">
-                                                            TicTacToe - "a game in which two players seek in alternate
-                                                            turns to complete a row, a column, or a diagonal with either
-                                                            three O's or three X's drawn in the spaces of a grid of nine
-                                                            squares" (Oxford Dictionary).
-                                                        </p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <a href="https://github.com/francisuloko/tic-tac-toe"
-                                                            class="btn btn-primary">Code</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                            style="background-image: url('./img/hotel1.jpeg'); background-size: 100% 100%; background-repeat: no-repeat;">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Hotels Directory</h2>
-                                <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                                    <li class="d-flex">
-                                        <div class="me-0">
-                                            <img src="./img/html5.png" alt="Bootstrap" width="32" height="32"
-                                                class="rounded-circle border border-white">
-                                        </div>
-                                        <div class="d-flex align-items-center me-2">
-                                            <svg class="bi me-2" width="1em" height="1em">
-                                                <use xlink:href="#geo-fill"></use>
-                                            </svg>
-                                            <small>HTML5 & CSS3</small>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <!-- Button -->
-                                        <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal4">
-                                            <i class="bi bi-arrows-fullscreen"></i>
-                                        </button>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade text-dark" id="exampleModal4" tabindex="-1"
-                                            aria-labelledby="exampleModalLabel4" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title text-dark" id="exampleModalLabel4">Hotels
-                                                            Directory</h5>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                            aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img class='w-100' src="./img/twosteps.jpeg" alt="">
-                                                        <p class="p-3">
-                                                            This project involves building a responsive, mobile first,
-                                                            Hotel directory called TwoSteps. This hotel directory
-                                                            enables a user to find hotels around the world. The web app
-                                                            displays the details of a registered hotel in two simple
-                                                            steps by 1.) entering
-                                                            a search criteria and 2.) selecting a hotel from the list of
-                                                            search results. The name of the app is derived from the
-                                                            number of actions (two steps) required to land on a hotel's
-                                                            page.
-                                                        </p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <a href="https://github.com/francisuloko/html-css-capstone-proj"
-                                                            class="btn btn-primary">Code</a>
-                                                        <a href="https://francisuloko.github.io/html-css-capstone-proj/"
-                                                            class="btn btn-primary">Preview</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                            style="background-image: url('./img/pexels-valeria-boltneva.jpg'); background-size: 100% 100%; background-repeat: no-repeat;">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4  lh-1 fw-bold">Meals DB API</h2>
-                                <ul class="d-flex justify-content-between align-items-center list-unstyled mt-auto">
-                                    <li class="d-flex">
-                                        <div class="me-0">
-                                            <img src="./img/jslogo.png" alt="Bootstrap" width="32" height="32"
-                                                class="rounded-circle border border-white">
-                                        </div>
-                                        <div class="d-flex align-items-center me-2">
-                                            <svg class="bi me-0" width="1em" height="1em">
-                                                <use xlink:href="#geo-fill"></use>
-                                            </svg>
-                                            <small>JavaScript</small>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <!-- Button -->
-                                        <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal6">
-                                            <i class="bi bi-arrows-fullscreen"></i>
-                                        </button>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade text-dark" id="exampleModal6" tabindex="-1"
-                                            aria-labelledby="exampleModalLabel5" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title text-dark" id="exampleModalLabel5">
-                                                            Meals DB API</h5>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                            aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img class='w-100' src="./img/mealsDB-screenshot.png" alt="">
-                                                        <p class="p-2">
-                                                            This is a collaborative capstone project where the team is
-                                                            tasked to build a web app that displays list of food items
-                                                            form The Meals DB API and create and display User reactions
-                                                            such Like and Comment using Microverse Involvement API.
-
-                                                            In this project, we have:
-                                                        </p>
-                                                        <ul>
-                                                            <li>Used JavaScript to make websites dynamic and build
-                                                                basic single page apps.</li>
-                                                            <li>Used ES6 syntax. </li>
-                                                            <li>Used ES6 modules.</li>
-                                                            <li>Used callbacks and promises.</li>
-                                                            <li>Used webpack.</li>
-                                                            <li>Applied JavaScript best practices and language style
-                                                                guides in code.</li>
-                                                            <li>Used AAA pattern for unit tests.</li>
-                                                            <li>Wrote units tests for a JavaScript app.</li>
-                                                            <li>Follow Gitflow.</li>
-                                                            <li>Solved simple git conflicts.</li>
-                                                            <li>Sent and receive data from an API.</li>
-                                                            <li>Used API documentation.</li>
-                                                            <li>Understood and Used JSON.</li>
-                                                            <li>Made JavaScript code synchronous.</li>
-                                                            <li>Performed a code review for a team member.</li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <a href="https://github.com/francisuloko/javascript-capstone"
-                                                            class="btn btn-primary">Code</a>
-                                                        <a href="https://francisuloko.github.io/javascript-capstone/dist/"
-                                                            class="btn btn-primary">Preview</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="p-3 bg-light rounded m-3 mt-4" id="skills">
-                <div class="row g-4 row-cols-1 row-cols-md-4">
-                    <div class="col d-flex align-items-start">
-                        <div>
-                            <h2>Front-End</h2>
-                            <div class="d-flex flex-column">
-                                <span>JavaScript</span>
-                                <span>React</span>
-                                <span>Redux</span>
-                                <span>HMTL5 & CSS3</span>
-                                <span>Bootstrap</span>
-                                <span>Sass</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex align-items-start">
-                        <div>
-                            <h2>Back-End</h2>
-                            <div class="d-flex flex-column">
-                                <span>Ruby</span>
-                                <span>Rails</span>
-                                <span>MySQL</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex align-items-start">
-                        <div>
-                            <h2>Tools &<br />Methods</h2>
-                            <div class="d-flex flex-column">
-                                <span>Git & Github</span>
-                                <span>Heroku & Netlify</span>
-                                <span>Responsive Design</span>
-                                <span>TDD & Rspec</span>
-                                <span>Linux</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex align-items-start">
-                        <div>
-                            <h2>Professional</h2>
-                            <div class="d-flex flex-column">
-                                <span>Remote Work</span>
-                                <span>Pair Programming</span>
-                                <span>Mentoring</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ABOUT ME -->
-            <section class="p-4 pt-3 mt-3" id='about'>
-                <h2 class="pb-2 border-bottom title display-6">About Me</h2>
-                <p class="col-md-10 fs-5 mt-4 lh-10">
-                    I have been a web developer since 2019.<br /> In February 2021, I joined the Microverse Software
-                    Development bootcamp<br /> which requires over 1000+ hours to master the industry's top tools and
-                    technologies<br /> while building real
-                    world projects.<br /> In my time, I learnt remote work, pair-programming, mentoring and a bunch of
-                    other soft skills.<br />
-                </p>
-                <p class="col-md-10 fs-5">
-                    In my spare time, I listen to music and meditate,<br /> and I'm always open for a game of
-                    Chess.<br /> I look forward to learning about the Internet of Things (IoT) and Smart
-                    Packaging.<br />
-                </p>
-
-                <a href="https://docs.google.com/document/d/1qZgEhlC8QnalI_qQ2FVxiwqL3OCWPe24EKpisR7_K_4/edit?usp=sharing" class="btn btn-primary fs-5 my-3 py-2 px-3" download>
-                    Get My Resume
-                </a>
-            </section>
-            <!-- CONTACT ME FORM -->
-            <section class="bg-black text-white banner" id="contact" style="background-image: url('./img/herobg.jpg');">
-                <div class="p-3 py-5 overlay">
-                    <div class="">
-                        <div class="row mb-3">
-                            <div class="col-sm-12 col-md-9 justify-content-between align-self-start m-0 px-4">
-                                <h2 class="my-0 title display-6">Get in touch</h2>
-                                <p class="my-3 col-sm-12 col-md-10 fs-4">
-                                    If you have an application you are interested in developing, a feature that you need
-                                    built or a project that needs coding, I'll love to hear from you.
-                                </p>
-                                <form action="https://formspree.io/f/xeqvzakr" method="POST">
-                                    <div class="row g-3">
-                                        <div class="col-sm-12 col-lg-6">
-                                            <input type="text" name="name" id="name" class="form-control"
-                                                placeholder="Name" aria-label="First name">
-                                        </div>
-                                        <div class="col-12 col-lg-6">
-                                            <input type="email" class="form-control" name="email" id="email"
-                                                placeholder="Email*" aria-label="Email" required>
-                                        </div>
-                                        <div class="col-12 mt-3">
-                                            <textarea class="form-control pt-0 mt-0" name="message" id="message"
-                                                rows="8" placeholder="Message*" required></textarea>
-                                        </div>
-                                        <div class="col-12 mt-0">
-                                            <button type="submit"
-                                                class="btn btn-primary fs-5 my-3 py-2 px-4">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
-    <footer class="p-2 bg-black text-white d-flex justify-content-between align-items-center">
-        <ul class="nav mb-2 justify-content-center justify-content-md-start mb-md-0 d-none d-md-flex">
-            <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
-            <li><a href="#projects" class="nav-link px-2 text-white">Projects</a></li>
-        </ul>
+    <footer
+      class="p-2 bg-black text-white d-flex justify-content-between align-items-center"
+    >
+      <ul
+        class="nav mb-2 justify-content-center justify-content-md-start mb-md-0 d-none d-md-flex"
+      >
+        <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
+        <li>
+          <a href="#projects" class="nav-link px-2 text-white">Projects</a>
+        </li>
+      </ul>
 
-        <p class="mx-auto copyright">Copyright &copy; <span id="year"></span>.</p>
+      <p class="mx-auto copyright">Copyright &copy; <span id="year"></span>.</p>
 
-        <div class="text-end d-none d-md-block d-lg-block">
-            <a class="me-2" href="https://www.github.com/francisuloko"><i class="bi bi-github text-white"></i></a>
-            <a class="me-2" href="https://www.linkedin.com/in/francisuloko/"><i
-                    class="bi bi-linkedin text-white"></i></a>
-            <a class="me-2" href="https://www.twitter.com/francisuloko"><i class="bi bi-twitter text-white"></i></a>
-        </div>
+      <div class="text-end d-none d-md-block d-lg-block">
+        <a class="me-2" href="https://www.github.com/francisuloko"
+          ><i class="bi bi-github text-white"></i
+        ></a>
+        <a class="me-2" href="https://www.linkedin.com/in/francisuloko/"
+          ><i class="bi bi-linkedin text-white"></i
+        ></a>
+        <a class="me-2" href="https://www.twitter.com/francisuloko"
+          ><i class="bi bi-twitter text-white"></i
+        ></a>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
     <script src="script/main.js"></script>
-</body>
-
+  </body>
 </html>
