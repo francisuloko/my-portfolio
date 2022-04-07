@@ -57,3 +57,9 @@ body {
 .copyright {
   font-size: 10px;
 }
+
+.icons img,
+.dev-icon {
+  width: 32px;
+  height: 32px;
+}
