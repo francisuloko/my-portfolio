@@ -3,10 +3,10 @@ export const projects = [
     title: "Twitter Redesign",
     bgImage: "",
     techIcon: "",
-    techTitle: "",
+    techTitle: "Ruby on Rails",
     modal: [
       {
-        title: "",
+        title: "Twitter Redesign",
         photo: "",
         descirption: "",
         githubUrl: "",
