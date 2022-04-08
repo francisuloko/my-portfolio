@@ -1,6 +1,5 @@
-export const showProject = ((project) => {
-  return (
-    `<div class="col">
+export const showProject = ((project) => (
+  `<div class="col">
       <div
         class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
         style="
@@ -80,5 +79,6 @@ export const showProject = ((project) => {
         </div>
       </div>
     </div>`
-  )
-});
+));
+
+export default showProject;
