@@ -62,12 +62,12 @@ export const showProject = ((project) => {
                       ></button>
                     </div>
                     <div class="modal-body">
-                      <img class="w-100" src="./img/paddy.jpg" alt="" />
-                      <p>${project.description}</>
+                      <img class="w-100" src=${project.modal[0].photo} alt="" />
+                      <p>${project.modal[0].description}</>
                     </div>
                     <div class="modal-footer">
                       <a
-                        href="${project.githubUrl}"
+                        href="${project.modal[0].githubUrl}"
                         class="btn btn-primary"
                         >Github</a
                       >
