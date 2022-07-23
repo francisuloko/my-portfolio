@@ -57,7 +57,7 @@ header a {
 }
 
 .discount {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .copy {
@@ -68,7 +68,7 @@ header a {
 ul,
 li {
   margin: 20px 0;
-  font-size: 18px;
+  font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 30px;
   color: #333;
