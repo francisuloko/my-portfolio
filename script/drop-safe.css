@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  background-color: eef;
+}
+header {
+  flex-direction: column;
+  padding: 50px 30px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header .headline {
+  width: 100%;
+}
+header .hero-image {
+  display: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+h1 span.hightlight {
+  color: #ffde59;
+}
+
+header p {
+  font-weight: 100;
+  max-width: 600px;
+  line-height: 30px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+header a {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  flex-direction: column;
+  background-color: #ffde59;
+  color: #000;
+  padding: 15px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.cta {
+  font-size: 20px;
+}
+
+.discount {
+  font-size: 10px;
+}
+
+.copy {
+  padding: 25px;
+}
+
+.copy p,
+ul,
+li {
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  color: #333;
+}
+.copy h2,
+.copy p,
+.copy ul,
+.copy h3 {
+  max-width: 650px;
+  margin: 25px auto;
+}
+
+ul li {
+  margin: 0 30px;
+}
+
+/* Count down timer */
+
+#timer {
+  font-size: 3em;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+}
+#timer span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.35em;
+  font-weight: 400;
+}
+
+.testimonial {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 770px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+  }
+  header .headline {
+    width: 60%;
+  }
+  header .hero-image {
+    width: 40%;
+    margin: 10px 0 0 60px;
+    display: inline;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .testimonial {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .testimonial img {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
